@@ -15,23 +15,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-```
-
-That's literally it. Here's how to do it on GitHub:
-
----
-
-**Step 1** — In your `Ytmetrics-` repo, click **"Add file"** → **"Create new file"**
-
-**Step 2** — In the filename box type exactly:
-```
-.github/workflows/deploy.yml
-```
-
-**Step 3** — Paste the yaml above into the file body → click **Commit changes**
-
-**Step 4** — Go to repo **Settings** → **Pages** → under "Source" select **`gh-pages` branch** → Save
-
-**Step 5** — Wait ~1 minute → your site is live at:
-```
-https://sreepathiyogi-blip.github.io/Ytmetrics-/
